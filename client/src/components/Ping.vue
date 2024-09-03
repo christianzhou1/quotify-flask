@@ -1,7 +1,12 @@
+<script setup>
+import NavBar from "./NavBar.vue";
+</script>
+
 <template>
-  <div>
+  <main>
+    <NavBar />
     <p>{{ msg }}</p>
-  </div>
+  </main>
 </template>
 
 <script>
